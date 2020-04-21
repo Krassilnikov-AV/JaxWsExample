@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Test client for web service</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Test client for web Service</h1>
+        <form action="TestClientWS" method="GET">
+            <p>
+                Input: &nbsp;
+                <input type="text" name="name" size="12"/><br>
+                <input type="submit" value="Send"/>
+            </p>
+            
+        </form>
+        <form action="TestClientWS" method="POST">
+            <p>
+                First: &nbsp;
+                <input type="text" name="first" size="12"/><br>
+                Second: &nbsp;
+                <input type="text" name="second" size="12"/><br>
+                <input type="submit" value="Add"/>
+            </p>
+        </form>
+           <form action="TestClientWS" method="POST">
+            <p>             
+                <input type="submit" name = "random" value="Add"/>
+            </p>
+        </form>
+    </body> 
+</html>
